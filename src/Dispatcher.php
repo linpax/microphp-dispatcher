@@ -20,7 +20,7 @@ class Dispatcher
      * @access public
      *
      * @param string $listener listener name
-     * @param array $event ['Object', 'method'] or callable
+     * @param array|callable $event ['Object', 'method'] or callable
      * @param int|null $prior priority
      *
      * @return bool
