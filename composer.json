@@ -8,5 +8,10 @@
       "name": "Zcasper",
       "email": "testuser@mail.linpax.org"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "Micro\\Dispatcher\\": "src/"
+    }
+  }
 }
